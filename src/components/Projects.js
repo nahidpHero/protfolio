@@ -1,8 +1,13 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
 import greeho from "../assets/greeho.png";
 import getRide from "../assets/getRide.png";
 import tourPlan from "../assets/tourPlan.png";
+
+
+AOS.init();
 
 const Projects = () =>  {
     const projects = [
@@ -10,7 +15,7 @@ const Projects = () =>  {
         title: "Greeho-Sheba",
         url: "https://greeho-sheba-c3c63.web.app",
         description:
-          "Full-stack service Providing website. Where customer and Provider can get each-other.",
+       "Full-stack service Providing website. Where customer and Provider can get each-other.",
         technologies: "RectJs, NodeJs, ExpressJs, MongoDB, Firebase Auth",
         image: `${greeho}`,
         time: "20 Oct 2022 - Present",
@@ -35,7 +40,10 @@ const Projects = () =>  {
     ];
     // console.log(projects);
     return (
-      <div id="projects" className="py-16 mx-auto w-62 lg:py-20 ">
+      <div id="projects" className="py-16 mx-auto w-62 lg:py-20 "
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500">
         <h1 className="my-10 text-5xl text-center">My Projects</h1>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project) => (

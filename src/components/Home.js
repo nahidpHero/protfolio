@@ -6,6 +6,7 @@ import './Home.css'
 import Hero from './Hero';
 import Projects from './Projects';
 import Skills from './Skills';
+import Contact from './Contact';
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
            <Hero></Hero>
            <Projects></Projects>
            {/* <Skills></Skills> */}
+           <Contact></Contact>
            <Footers></Footers> 
           </div>
         </header>
