@@ -1,0 +1,110 @@
+.skills-container{
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.skills h2{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.progress-ber{
+    background: #950595;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress-ber div{
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+  
+}
+
+.progress-ber div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #222;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.HTML{
+    background: #e91e63;
+    animation: HTML 1s linear forwards;
+}
+.CSS{
+    background: #cddc39;
+    animation: CSS 1s linear forwards;
+}
+.JavaScript{
+    background: #00bcd4;
+    animation: JavaScript 1s linear forwards;
+}
+.React{
+    background: #ffeb3b;
+    animation: React 1s linear forwards;
+}
+.Nodejs{
+    background: hsl(212, 100%, 62%);
+    animation: Nodejs 1s linear forwards;
+}
+
+
+.HTML span{
+    border: 1px solid #e91e63 ;
+}
+.CSS span{
+    border: 1px solid #cddc39 ;
+}
+.JavaScript span{
+    border: 1px solid #00bcd4 ;
+}
+.React span{
+    border: 1px solid #ffeb3b  ;
+}
+.Nodejs span{
+    border: 1px solid #3bb7ff  ;
+}
+@keyframes HTML{
+    100%{
+        width: 86%;
+    }
+}
+
+@keyframes CSS{
+    100%{
+        width: 75%;
+    }
+}
+
+@keyframes JavaScript{
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes React{
+    100%{
+        width: 65%;
+    }
+}
+
+@keyframes Nodejs{
+    100%{
+        width: 60%;
+    }
+}

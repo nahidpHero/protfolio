@@ -26,7 +26,8 @@ const Contact = () => {
       };
       
     return (
-    <div id="contact" data-aos="zoom-in">
+    <div id="contact" data-aos="zoom-in"
+     data-aos-duration="2000">
       <h1 className="my-5 text-5xl text-center">Send Email</h1>
       <form
        ref={form}

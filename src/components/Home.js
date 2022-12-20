@@ -7,19 +7,21 @@ import Hero from './Hero';
 import Projects from './Projects';
 import Skills from './Skills';
 import Contact from './Contact';
+import About from './About';
 
 const Home = () => {
     return (
         <>
         <div className="absolute ">
-          <img className="fixed h-full" src={background} alt="" />
+          <img className="fixed h-full"  src={background} alt="" /> 
         </div>
         <header className="relative h-full px-10 text-white bg-slate-900 bg-opacity-70 pattern">
           <div className="px-6 mx-auto md:container ">
            <Nav></Nav>
            <Hero></Hero>
            <Projects></Projects>
-           {/* <Skills></Skills> */}
+           <About></About>
+           <Skills></Skills>
            <Contact></Contact>
            <Footers></Footers> 
           </div>
