@@ -12,27 +12,27 @@ AOS.init();
 const Projects = () =>  {
     const projects = [
       {
-        title: "Greeho-Sheba",
-        url: "https://greeho-sheba-c3c63.web.app",
+        title: "City Tours",
+        url: "https://city-tours-f961f.web.app/home",
         description:
-       "Full-stack service Providing website. Where customer and Provider can get each-other.",
+       "This is a full-stack customer review giving platform about tourist service.",
         technologies: "RectJs, NodeJs, ExpressJs, MongoDB, Firebase Auth",
         image: `${greeho}`,
         time: "20 Oct 2022 - Present",
       },
       {
-        title: "Get-Ride",
-        url: "https://get-ride-44eec.web.app/",
-        description: "This is a full-stack service Bicycle reselling platform.",
+        title: "E-learning",
+        url: "https://e-learning-da6d5.web.app/",
+        description: "This is a full-stack service learning website anyone can purses this course",
         technologies: "RectJs, NodeJs, ExpressJs, MongoDB, Firebase Auth",
         image: `${getRide}`,
         time: "23 Nov 2022 - Present",
       },
       {
-        title: "Tour-Plan",
-        url: "https://greeho-sheba-c3c63.web.app",
+        title: "Kenakata.com",
+        url: "https://kenakata-26a59.web.app/",
         description:
-          "This is a full-stack customer review giving platform about tourist service.",
+          "This is a full-stack customer review giving platform and some product purses",
         technologies: "RectJs, NodeJs, ExpressJs, MongoDB, Firebase Auth",
         image: `${tourPlan}`,
         time: "20 Oct 2022 - Present",

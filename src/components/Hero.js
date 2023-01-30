@@ -38,8 +38,8 @@ const Hero = () => {
           by programming.
         </p>
         <a
-          href="https://drive.google.com/file/d/1acJFFjQFg2kXblBzvrbcDAAMZHclYV-e/view?usp=share_link"
-          download="https://drive.google.com/file/d/1acJFFjQFg2kXblBzvrbcDAAMZHclYV-e/view?usp=share_link"
+          href="https://drive.google.com/file/d/1LU56x0WzyOrZPvcacuNwOZG9JZkl6Roh/view"
+          download="https://drive.google.com/file/d/1LU56x0WzyOrZPvcacuNwOZG9JZkl6Roh/view"
           className="mr-3"
         >
           <button className="my-5 btn btn-accent ">

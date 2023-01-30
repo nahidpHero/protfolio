@@ -26,6 +26,16 @@ const Skills = () => {
         <div className='CSS'><span>75%</span></div>
        </div>
        <div className='skills'></div>
+       <h2 className='text-xl'>Bootstrap</h2>
+       <div className='progress-ber'>
+        <div className='Bootstrap'><span>90%</span></div>
+       </div>
+       <div className='skills'></div>
+       <h2 className='text-xl'>Tailwind CSS</h2>
+       <div className='progress-ber'>
+        <div className='Tailwind'><span>85%</span></div>
+       </div>
+       <div className='skills'></div>
        <h2 className='text-xl'>JavaScript</h2>
        <div className='progress-ber'>
         <div className='JavaScript'><span>70%</span></div>
@@ -37,6 +47,11 @@ const Skills = () => {
        </div>
        <div className='skills'></div>
        <h2 className='text-xl'>Node Js</h2>
+       <div className='progress-ber'>
+        <div className='Nodejs'><span>60%</span></div>
+       </div>
+       <div className='skills'></div>
+       <h2 className='text-xl'>MongoDB</h2>
        <div className='progress-ber'>
         <div className='Nodejs'><span>60%</span></div>
        </div>
